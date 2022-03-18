@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: Tahoma;
+	font-size:10px;
+	/*background-color: #454746; */
+	background-color: #91a89d;
+	/*background-color: #F0FFFF; */
+}
+input[type=text],input[type=password],textarea,select{
+	border-radius:4px;
+	border:1px solid #91a89d;
+}
+.titulo{
+	font-size: 10px;
+	float: right;
+}
+#titulo{
+	width: 920px;
+}
+#parte1{
+	/*border-style: solid;
+    border-color: red;*/
+	width: 920px;
+	background-color: #D3D3D3;
+}
+#parte2{
+	/*border-style: solid;
+    border-color: blue;*/
+	width: 920px;
+	background-color: #D3D3D3;
+	font-size:9px;
+}
+#parte3{
+	/*border-style: solid;
+    border-color: green;*/
+	width: 920px;
+	background-color: #D3D3D3;
+	font-size:9px;
+}
+textarea{
+	resize: none;
+}
+#conteudo{
+	margin: auto;
+	width: 980px;
+	background-color: #EEE9E9;
+	border-radius: 10px;
+	border: 3px solid #dddddd;
+	padding: 15px;
+}
+#tudo{
+	margin: auto;
+	width: 300px;
+	color: red;
+	background-color: #EEE9E9;
+	border-radius: 10px;
+	border: 3px solid #dddddd;
+	padding: 15px;
+	
+}
+
+.sair{
+	float: right;
+}
+
+.canhotodir{
+	float: right;
+	margin-right: 20px;
+}
+
+.count{
+	float: right;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+h3{
+	font-size: 16px;
+}
+
+.tbprincipal a{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.rec a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+header{
+	margin: auto;
+	width: 920px;
+}
+.msg{
+	/*color: red;
+	background-color: #EEE8AA;*/
+}
+.parc1{
+	font-size: 8px;
+}
+.venc1{
+	font-size: 8px;
+	background-color: #2F4F4F;
+	color: white;
+}
+.parc2{
+	font-size: 10px;
+}
+.venc2{
+	font-size: 10px;
+	background-color: #2F4F4F;
+	color: white;
+}
+#conteudo{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+}
+
+input.maiuscula {
+  text-transform: uppercase;
+}
+
+.tbget{
+	margin: auto;
+	width: 900px;
+}
+
+.tbget td{
+	text-align: center;
+	background-color: white;
+	padding: 5px;
+	
+}
+.tbget th{
+	text-align: center;
+	background-color: #2F4F4F;
+	padding: 10px;
+	color: white;
+}
+.tbget tr :hover{
+	background-color: #F90;
+	color: white;
+}
+
+/*  formatButtons.css */
+ 
+.okButton { 
+ background:url(./img/botao-login.png) no-repeat; 
+ cursor:pointer;
+ width: 83px; 
+ height: 25px; 
+ border: none;
+ font-size:0%
+}
+ 
+.cancelButton { 
+ background:url(./imgs/cancelButton.gif) no-repeat; 
+ cursor:pointer; 
+ width: 83px; 
+ height: 25px; 
+ border: none; 
+ font-size:0%
+}
+
+button{
+ cursor:pointer;
+ border: 0px none;
+ background-color: transparent;
+ padding: 0px 0px 0px 0px;
+}
+button.img{
+ border: 0px none;
+}
+
+#mask {
+			
+			position:absolute;
+  			left:0;
+  			top:0;
+  			z-index:9000;
+  			background-color:#000;
+			display:none;
+
+		}
+
+ 
+
+		#boxes .window {
+
+			position:absolute;
+
+			width:720px;
+
+			height:480px;
+
+			display:none;
+
+			z-index:9999;
+
+			padding:20px;
+			
+			
+
+		}
+
+ 
+
+/* Personalize a janela modal aqui. Você pode adicionar uma imagem de fundo. */
+
+		#boxes #dialog {
+
+			width:720px;
+
+			height:480px;
+
+			
+
+		}
+
+/* posiciona o link para fechar a janela */
+
+		.close {
+
+			display:block;
+
+			text-align:right;
+			
+			color: white;
+			
+			font-weight: bold;
+
+
